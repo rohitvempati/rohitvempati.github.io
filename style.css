@@ -6,9 +6,9 @@
 
 body {
 
-    background-color: #0d1117;
+    background-color: #f5f3ee;
 
-    color: #e6edf3;
+    color: #1f2937;
 
     font-family: 'Inter', sans-serif;
 
@@ -17,7 +17,7 @@ body {
 
 main {
 
-    max-width: 860px;
+    max-width: 900px;
 
     margin: 0 auto;
 
@@ -44,32 +44,38 @@ header {
 
 h1 {
 
-    font-size: 42px;
+    font-size: 44px;
 
     font-weight: 700;
 
     letter-spacing: -1px;
+
+    color: #111827;
 }
 
 .header-links {
 
     display: flex;
 
-    gap: 24px;
+    flex-wrap: wrap;
+
+    gap: 20px;
 }
 
 .header-links a {
 
     text-decoration: none;
 
-    color: #8b949e;
+    color: #64748b;
 
     transition: 0.2s;
+
+    font-size: 15px;
 }
 
 .header-links a:hover {
 
-    color: white;
+    color: #2563eb;
 }
 
 .intro {
@@ -78,7 +84,7 @@ h1 {
 
     font-size: 18px;
 
-    color: #9da7b3;
+    color: #4b5563;
 }
 
 /* SECTIONS */
@@ -94,12 +100,12 @@ h2 {
 
     margin-bottom: 24px;
 
-    color: white;
+    color: #111827;
 }
 
 section p {
 
-    color: #9da7b3;
+    color: #4b5563;
 }
 
 /* LIST */
@@ -115,18 +121,18 @@ li {
 
     margin-bottom: 10px;
 
-    color: #c9d1d9;
+    color: #374151;
 }
 
-/* EXPERIENCE / RESEARCH CARDS */
+/* CARDS */
 
 .entry {
 
-    background-color: #161b22;
+    background-color: #ffffff;
 
-    border: 1px solid #2d333b;
+    border: 1px solid #e5e7eb;
 
-    border-left: 3px solid #58a6ff;
+    border-left: 4px solid #3b82f6;
 
     border-radius: 14px;
 
@@ -135,13 +141,15 @@ li {
     margin-bottom: 22px;
 
     transition: 0.2s ease;
+
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
 }
 
 .entry:hover {
 
-    border-color: #3b434c;
-
     transform: translateY(-2px);
+
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
 }
 
 .entry-header {
@@ -162,11 +170,13 @@ li {
     font-size: 18px;
 
     margin-bottom: 2px;
+
+    color: #111827;
 }
 
 .entry-header span {
 
-    color: #7d8590;
+    color: #6b7280;
 
     font-size: 14px;
 }
@@ -189,7 +199,9 @@ li {
 
 .tags span {
 
-    border: 1px solid #30363d;
+    background-color: #ffffff;
+
+    border: 1px solid #d1d5db;
 
     border-radius: 999px;
 
@@ -197,9 +209,7 @@ li {
 
     font-size: 14px;
 
-    color: #c9d1d9;
-
-    background-color: #161b22;
+    color: #374151;
 }
 
 /* FOOTER */
@@ -208,12 +218,12 @@ footer {
 
     padding-top: 24px;
 
-    border-top: 1px solid #21262d;
+    border-top: 1px solid #d1d5db;
 }
 
 footer p {
 
-    color: #7d8590;
+    color: #6b7280;
 }
 
 /* MOBILE */
